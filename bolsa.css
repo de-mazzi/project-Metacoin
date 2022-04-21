@@ -1,0 +1,55 @@
+/* Header CSS */
+
+.icon-bar {
+  width: 100%;
+  background-color: #712ad4;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: right;
+  width: 250px;
+  text-align: center;
+  padding: 35px 0;
+  color: #dbdbdb;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icon-bar a:hover {
+  background-color: #9b69e1;
+
+}
+
+.active {
+  background-color: #712ad4;
+} 
+
+.logo {
+	width: 80%;
+	height: 80%;
+  margin-top: -17px;
+}
+
+.logoHead {
+	float: left;
+	position: absolute;
+	left: 0px;
+  height: 46px;
+}
+
+.logoHead:hover {
+	height: 46px;
+	
+}
+
+.alignHead {
+
+}
+/* Escopo do site */
+
+body {
+  margin: 0px;
+  background-color: #dbdbdb;
+}
