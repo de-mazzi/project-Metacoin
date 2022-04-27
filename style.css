@@ -1,11 +1,63 @@
 /* Header CSS */
 
+.disabled {
+	pointer-events: none;
 
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #712ad4;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: right;
+  width: 250px;
+  text-align: center;
+  padding: 25px 0;
+  color: #dbdbdb;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #712ad4;
+} 
+
+.logo {
+	width: 100%;
+	height: 100%;
+	margin-top: -17px;
+	margin-left: 50px;
+}
+
+.logoHead {
+	float: left;
+	position: absolute;
+	left: 0px;
+	height: 46px;
+	transition: 0.3s;
+}
+
+.logoHead:hover {
+	height: 46px; 
+	margin-left: 20px;
+}
+
+.alignHead {
+transition: 0.3s;
+}
+
+.alignHead:hover{
+	background-color: #9b69e1;
+}
 
 /* Escopo do site */
 
 body {
 	margin: 0px;
+	background-color: #dbdbdb;
 }
 
 .header {
@@ -80,7 +132,7 @@ body {
 
 .info {
 	float: left;
-	background-color: #a89803;
+	background-color: #712ad4;
 }
 
 .infoText {
