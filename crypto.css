@@ -78,13 +78,19 @@ body {
   font-weight: bold;
 }
 
-
-
-.text {
+.titlecard2 {
+  text-align: center;
   font-size: 20px;
   font-family: Arial;
-  text-align: left;
+  margin: 15px;
+  font-weight: bold;
+  text-decoration: underline
+}
 
+.text {
+  font-size: 18.5px;
+  font-family: "Helvetica-Light";
+  text-align: left;
 }
 
 .cryptoImg {
@@ -94,31 +100,34 @@ body {
 
 .divCard1 {
   float: left;
+  justify-content: center;
   margin-left: 0px;
   margin-top: 40px;
-  margin-right: 40px;
+  margin-right: 0px;
   margin-bottom: 8px;
-  width: 400px;
+  width: 300px;
 }
 
 .divCard2 {
   float: left;
   margin-top: 40px;
   margin-bottom: 8px;
-  width: 400px;
+  margin-right: 100px;
+  margin-left: 100px;
+  width: 300px;
 }
 
 .divCard3 {
   float: left;
-  margin-left: 40px;
+  margin-left: 0px;
   margin-top: 40px;
   margin-bottom: 4px;
   margin-right: 0px;
-  width: 400px;
+  width: 300px;
 }
 
 .card1 {
-  height: 200 px;
+  height: 200px;
   width: 300px;
   border-radius: 10%;
 
@@ -138,8 +147,8 @@ body {
 }
 
 .cards{
-  transform: translateX(3%);
-  width: 100%;
+  transform: translate(13%);
+  width: auto;
   position: absolute;
 }
 
@@ -147,4 +156,6 @@ body {
   left: 100px;
   font-size: 20px;
   font-family: Arial;
+  margin: 3px;
+  text-align: center;
 }
