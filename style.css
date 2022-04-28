@@ -15,16 +15,10 @@
   float: right;
   width: 250px;
   text-align: center;
-  padding: 35px 0;
+  padding: 25px 0;
   color: #dbdbdb;
   font-size: 20px;
   text-decoration: none;
-  transition: 0.3s;
-}
-
-.icon-bar a:hover {
-  background-color: #9b69e1;
-
 }
 
 .active {
@@ -32,9 +26,10 @@
 } 
 
 .logo {
-	width: 80%;
-	height: 80%;
+	width: 100%;
+	height: 100%;
 	margin-top: -17px;
+	margin-left: 50px;
 }
 
 .logoHead {
@@ -42,16 +37,22 @@
 	position: absolute;
 	left: 0px;
 	height: 46px;
+	transition: 0.3s;
 }
 
 .logoHead:hover {
-	height: 46px;
-	
+	height: 46px; 
+	margin-left: 20px;
 }
 
 .alignHead {
-
+transition: 0.3s;
 }
+
+.alignHead:hover{
+	background-color: #9b69e1;
+}
+
 /* Escopo do site */
 
 body {
@@ -98,23 +99,39 @@ body {
 	height: 275px;
 	width: 400px;
 	border-radius: 10%;
-
+	-webkit-transition: -webkit-transform .3s ease;
+	transition: transform .3s ease;
 }
 
 .card2 {
 	height: 275px;
 	width: 400px;
 	border-radius: 10%;
-
+	-webkit-transition: -webkit-transform .3s ease;
+	transition: transform .3s ease;
 }
 
 .card3 {
 	height: 275px;
 	width: 400px;
 	border-radius: 10%;
-
-
+	-webkit-transition: -webkit-transform .3s ease;
+	transition: transform .3s ease;
 }
+
+.card1:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.card2:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.card3:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 
 .titlecard {
 	text-align: center;
