@@ -99,21 +99,39 @@ body {
 	height: 275px;
 	width: 400px;
 	border-radius: 10%;
-
+	-webkit-transition: -webkit-transform .3s ease;
+	transition: transform .3s ease;
 }
 
 .card2 {
 	height: 275px;
 	width: 400px;
 	border-radius: 10%;
-
+	-webkit-transition: -webkit-transform .3s ease;
+	transition: transform .3s ease;
 }
 
 .card3 {
 	height: 275px;
 	width: 400px;
 	border-radius: 10%;
+	-webkit-transition: -webkit-transform .3s ease;
+	transition: transform .3s ease;
+}
 
+.card1:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.card2:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.card3:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 
 }
 
