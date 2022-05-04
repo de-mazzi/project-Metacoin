@@ -147,19 +147,3 @@ body {
 	font-family: Arial;
 	margin: 10px;
 }
-
-.info {
-	float: left;
-	background-color: #712ad4;
-}
-
-.infoText {
-	width: 67%;
-}
-
-.infoImg {
-	float: right;
-	height: 250px;
-	width: 350px;
-	margin: 20px;
-}
