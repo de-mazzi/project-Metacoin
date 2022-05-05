@@ -149,6 +149,7 @@ body {
   font-family: Arial;
   margin: 10px;
   font-weight: bold;
+  color: #2e2e2d;
 }
 
 .titlecard2 {
@@ -164,6 +165,13 @@ body {
   font-size: 18.5px;
   font-family: "Helvetica-Light";
   text-align: left;
+}
+
+.paragrafo {
+  font-size: 18.5px;
+  font-family: "Helvetica-Light";
+  text-align: left;
+  color: #2e2e2d;
 }
 
 .cryptoImg {
