@@ -127,6 +127,7 @@ transition: 0.3s;
   font-weight: bold;
   border-radius: 10%;
   transition-duration: 0.3s;
+  cursor: pointer;
 }
 
   .botaoVoltar:hover {
